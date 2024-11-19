@@ -13,6 +13,7 @@ It leverages Django ORM for data management and utilizes MySQL for database stor
 ## Technologies Used
 - Django
 - MySQL
+- HTML
 - crispy_forms
 - Bootstrap 4
 
