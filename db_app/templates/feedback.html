@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Submit Feedback</title>
+    <style>
+        /* Center the content vertically and horizontally */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            text-align: center; /* Center the text */
+            flex-direction: column; /* Stack content vertically */
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h4><p>Thank you for your submission! <br> Your form has been received successfully.</p></h4>
+    <a href="{% url 'student_form' %}" class="btn btn-primary">Back to Form</a>
+    <a href="{% url 'find_student' %}" class="btn btn-light mt-2">Find Student</a>
+    </div>
+</body>
+</html>
