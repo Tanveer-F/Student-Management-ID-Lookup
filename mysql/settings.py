@@ -57,6 +57,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
+]
+
+
 ROOT_URLCONF = 'mysql.urls'
 
 TEMPLATES = [
