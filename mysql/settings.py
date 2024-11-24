@@ -61,6 +61,8 @@ CSRF_TRUSTED_ORIGINS = [
     'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
 ]
 
+CSRF_COOKIE_HTTPONLY = True
+
 
 ROOT_URLCONF = 'mysql.urls'
 
