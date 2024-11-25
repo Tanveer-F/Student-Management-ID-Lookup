@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net']
 
+<<<<<<< HEAD
 CSRF_TRUSTED_ORIGINS = [
     'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
 ]
@@ -36,6 +37,8 @@ CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
 
+=======
+>>>>>>> d1bb8a875a631527ecb12945273414e6eea28e99
 
 
 
@@ -64,6 +67,14 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
+]
+
+CSRF_COOKIE_HTTPONLY = True
+CSRF_COOKIE_SECURE = True 
+
 
 ROOT_URLCONF = 'mysql.urls'
 
