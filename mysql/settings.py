@@ -24,22 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=gbo2#*mme^$0i66su0e+k^lq!n#8&x984p+ei*3+8g)n9f_ii'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net']
-
-<<<<<<< HEAD
-CSRF_TRUSTED_ORIGINS = [
-    'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
-]
-
-CSRF_COOKIE_HTTPONLY = True
-CSRF_COOKIE_SECURE = True
-
-
-=======
->>>>>>> d1bb8a875a631527ecb12945273414e6eea28e99
-
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -68,12 +55,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://student-id-lookup-app-azeze3gpa2aecrcq.southeastasia-01.azurewebsites.net',
-]
 
-CSRF_COOKIE_HTTPONLY = True
-CSRF_COOKIE_SECURE = True 
+
 
 
 ROOT_URLCONF = 'mysql.urls'
